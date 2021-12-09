@@ -1,0 +1,1469 @@
+{
+	"id": "0cf2a7b1-1499-4095-8ed1-611aa9766ba1",
+	"name": "server.postman_collection",
+	"allTests": [],
+	"timestamp": "2019-10-16T12:06:16.852Z",
+	"collection_id": "7355c574-1228-4889-a530-3798ec1a265e",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "f20e54ff-f965-4435-9ea9-1ff1339aa323",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "7355c574-1228-4889-a530-3798ec1a265e",
+		"name": "server.postman_collection",
+		"order": [
+			"3cf4f723-7c31-40ac-8fdf-0c1c89e2585f",
+			"0a5a212c-bbe5-442e-9dff-f7b32c6da7b1",
+			"036d8abe-dd3f-4cc3-90d5-6349e6e67205",
+			"e429e4f0-b6e9-4314-94d7-64d90df94ac2",
+			"d6d856c1-9f0a-43d3-b221-8194a1e9ccb5",
+			"e03e7f14-9bfc-4839-8617-0550c814ce30",
+			"62e134ba-bda7-4e71-8651-1023b6291019",
+			"8b39fa93-0572-4dc2-bbd4-5cb178c6fc69",
+			"54035157-4399-445b-bf39-e20851f3eb08",
+			"d59e21e4-4571-450c-bb24-8be2ac6e3c03",
+			"0e4fcce7-63c1-4ffc-99e7-b86435c466fb",
+			"9154f835-fdcb-46e7-9f40-2ad74c16d9fd",
+			"f04ded9d-bd1b-4f23-89fe-c3f66cde2fa0",
+			"fcd79276-7505-4ef1-b75f-0b97f1bfb449",
+			"d110703f-d8cf-4947-9f8a-d14e377e52cf",
+			"3425ee09-35b9-4fa0-b1ef-c76fab980954",
+			"8a73c4dd-8fb1-4dea-899a-67a40dc17300",
+			"c5a9e21a-b56a-4486-9e83-40e6de966769",
+			"323efb80-b0f2-4d4e-8d2e-26a0f297c7a5",
+			"b23c4918-1890-439c-8b0a-a9ad8a39f0fd",
+			"9a7659fb-3add-4614-9512-71886e264b50",
+			"839c32d3-7311-4e57-a5e6-8cda73a2a9c6",
+			"d51c36dd-60b6-4a8b-bc37-15ccf6bd2375",
+			"3021c9ba-f81c-4ce7-8500-0910e1c4727b",
+			"3961cb5d-1899-42a1-ae48-24071c1603e6",
+			"bbcbbdd8-c397-4c69-acc0-e54b0e15d9a5"
+		],
+		"folders_order": [],
+		"isFavorite": false
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [
+		{
+			"key": "host",
+			"value": "http://localhost:3000/api",
+			"enabled": false
+		}
+	],
+	"results": [
+		{
+			"name": "Create a new user",
+			"id": "3cf4f723-7c31-40ac-8fdf-0c1c89e2585f",
+			"url": "http://localhost:3000/api/users/register",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"51"
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			],
+			"time": "51",
+			"totalRequestTime": "51",
+			"iterationResults": {}
+		},
+		{
+			"name": "Create a new Admin",
+			"id": "0a5a212c-bbe5-442e-9dff-f7b32c6da7b1",
+			"url": "http://localhost:3000/api/admins/register",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"15"
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			],
+			"time": "15",
+			"totalRequestTime": "15",
+			"iterationResults": {}
+		},
+		{
+			"name": "Make a review - User",
+			"id": "036d8abe-dd3f-4cc3-90d5-6349e6e67205",
+			"url": "http://localhost:3000/api/users/5da707b88492ee23e0090dd9/reviews",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"40"
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			],
+			"time": "40",
+			"totalRequestTime": "40",
+			"iterationResults": {}
+		},
+		{
+			"name": "Get a user with the given id",
+			"id": "e429e4f0-b6e9-4314-94d7-64d90df94ac2",
+			"url": "http://localhost:3000/api/users/5da707b88492ee23e0090dd9",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"16"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "16",
+			"totalRequestTime": "16",
+			"iterationResults": {}
+		},
+		{
+			"name": "Create a new product",
+			"id": "d6d856c1-9f0a-43d3-b221-8194a1e9ccb5",
+			"url": "http://localhost:3000/api/admins/5da707b98492ee23e0090dda/products",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"18"
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			],
+			"time": "18",
+			"totalRequestTime": "18",
+			"iterationResults": {}
+		},
+		{
+			"name": "Get all users - Admin",
+			"id": "e03e7f14-9bfc-4839-8617-0550c814ce30",
+			"url": "http://localhost:3000/api/admins/users/",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"11"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "11",
+			"totalRequestTime": "11",
+			"iterationResults": {}
+		},
+		{
+			"name": "Make an order -User",
+			"id": "62e134ba-bda7-4e71-8651-1023b6291019",
+			"url": "http://localhost:3000/api/users/5da707b88492ee23e0090dd9/products/orders",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"16"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "16",
+			"totalRequestTime": "16",
+			"iterationResults": {}
+		},
+		{
+			"name": "Update user info with given id",
+			"id": "8b39fa93-0572-4dc2-bbd4-5cb178c6fc69",
+			"url": "http://localhost:3000/api/users/5da707b88492ee23e0090dd9",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"9"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "9",
+			"totalRequestTime": "9",
+			"iterationResults": {}
+		},
+		{
+			"name": "Update user password with given id",
+			"id": "54035157-4399-445b-bf39-e20851f3eb08",
+			"url": "http://localhost:3000/api/users/5da707b88492ee23e0090dd9/password",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"12"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "12",
+			"totalRequestTime": "12",
+			"iterationResults": {}
+		},
+		{
+			"name": "login an existing admin",
+			"id": "d59e21e4-4571-450c-bb24-8be2ac6e3c03",
+			"url": "http://localhost:3000/api/admins/login",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Admin has correct data": true
+			},
+			"testPassFailCounts": {
+				"Admin has correct data": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"11"
+			],
+			"allTests": [
+				{
+					"Admin has correct data": true
+				}
+			],
+			"time": "11",
+			"totalRequestTime": "11",
+			"iterationResults": {}
+		},
+		{
+			"name": "Update admin info with given id",
+			"id": "0e4fcce7-63c1-4ffc-99e7-b86435c466fb",
+			"url": "http://localhost:3000/api/admins/5da707b98492ee23e0090dda",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"11"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "11",
+			"totalRequestTime": "11",
+			"iterationResults": {}
+		},
+		{
+			"name": "login an existing user",
+			"id": "9154f835-fdcb-46e7-9f40-2ad74c16d9fd",
+			"url": "http://localhost:3000/api/users/login",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"User has correct data": true
+			},
+			"testPassFailCounts": {
+				"User has correct data": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"10"
+			],
+			"allTests": [
+				{
+					"User has correct data": true
+				}
+			],
+			"time": "10",
+			"totalRequestTime": "10",
+			"iterationResults": {}
+		},
+		{
+			"name": "Get all products - User",
+			"id": "f04ded9d-bd1b-4f23-89fe-c3f66cde2fa0",
+			"url": "http://localhost:3000/api/users/5da707b88492ee23e0090dd9/products",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"35"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "35",
+			"totalRequestTime": "35",
+			"iterationResults": {}
+		},
+		{
+			"name": "Get all products- Admin",
+			"id": "fcd79276-7505-4ef1-b75f-0b97f1bfb449",
+			"url": "http://localhost:3000/api/admins/5da707b98492ee23e0090dda/products/",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"26"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "26",
+			"totalRequestTime": "26",
+			"iterationResults": {}
+		},
+		{
+			"name": "Get a list of all products",
+			"id": "d110703f-d8cf-4947-9f8a-d14e377e52cf",
+			"url": "http://localhost:3000/api/products",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"27"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "27",
+			"totalRequestTime": "27",
+			"iterationResults": {}
+		},
+		{
+			"name": "Get all reviews",
+			"id": "3425ee09-35b9-4fa0-b1ef-c76fab980954",
+			"url": "http://localhost:3000/api/reviews",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"14"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "14",
+			"totalRequestTime": "14",
+			"iterationResults": {}
+		},
+		{
+			"name": "Get all orders - Admin",
+			"id": "8a73c4dd-8fb1-4dea-899a-67a40dc17300",
+			"url": "http://localhost:3000/api/admins/5da707b98492ee23e0090dda/orders/",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"21"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "21",
+			"totalRequestTime": "21",
+			"iterationResults": {}
+		},
+		{
+			"name": "Update or edit a review",
+			"id": "c5a9e21a-b56a-4486-9e83-40e6de966769",
+			"url": "http://localhost:3000/api/users/5da707b88492ee23e0090dd9/reviews/5da707b98492ee23e0090ddb",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"12"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "12",
+			"totalRequestTime": "12",
+			"iterationResults": {}
+		},
+		{
+			"name": "//Get a specific order- Admin",
+			"id": "323efb80-b0f2-4d4e-8d2e-26a0f297c7a5",
+			"url": "http://localhost:3000/api/admins/5da707b98492ee23e0090dda/orders/5da707b98492ee23e0090ddd",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"39"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "39",
+			"totalRequestTime": "39",
+			"iterationResults": {}
+		},
+		{
+			"name": "Update a specific order - User",
+			"id": "b23c4918-1890-439c-8b0a-a9ad8a39f0fd",
+			"url": "http://localhost:3000/api/users/5da707b88492ee23e0090dd9/products/orders/5da707b98492ee23e0090ddd",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"15"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "15",
+			"totalRequestTime": "15",
+			"iterationResults": {}
+		},
+		{
+			"name": "Update product info with the given id",
+			"id": "9a7659fb-3add-4614-9512-71886e264b50",
+			"url": "http://localhost:3000/api/admins/5da707b98492ee23e0090dda/products/5da707b98492ee23e0090ddc",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"17"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "17",
+			"totalRequestTime": "17",
+			"iterationResults": {}
+		},
+		{
+			"name": "Delete an order- Admin",
+			"id": "839c32d3-7311-4e57-a5e6-8cda73a2a9c6",
+			"url": "http://localhost:3000/api/admins/5da707b98492ee23e0090dda/orders/5da707b98492ee23e0090ddd",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"15"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "15",
+			"totalRequestTime": "15",
+			"iterationResults": {}
+		},
+		{
+			"name": "Delete a review - User",
+			"id": "d51c36dd-60b6-4a8b-bc37-15ccf6bd2375",
+			"url": "http://localhost:3000/api/users/5da707b88492ee23e0090dd9/reviews/5da707b98492ee23e0090ddb",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"14"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "14",
+			"totalRequestTime": "14",
+			"iterationResults": {}
+		},
+		{
+			"name": "Delete a product with the given ID - Admin",
+			"id": "3021c9ba-f81c-4ce7-8500-0910e1c4727b",
+			"url": "http://localhost:3000/api/admins/5da707b98492ee23e0090dda/products/5da707b98492ee23e0090ddc",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"10"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "10",
+			"totalRequestTime": "10",
+			"iterationResults": {}
+		},
+		{
+			"name": "Delete a user with the given ID - Admin",
+			"id": "3961cb5d-1899-42a1-ae48-24071c1603e6",
+			"url": "http://localhost:3000/api/users/5da707b88492ee23e0090dd9",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"10"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "10",
+			"totalRequestTime": "10",
+			"iterationResults": {}
+		},
+		{
+			"name": "Delete an admin with the given id",
+			"id": "bbcbbdd8-c397-4c69-acc0-e54b0e15d9a5",
+			"url": "http://localhost:3000/api/admins/5da707b98492ee23e0090dda",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"17"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": "17",
+			"totalRequestTime": "17",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 26,
+	"totalFail": 0,
+	"totalTime": 492,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "Create a new user",
+			"id": "3cf4f723-7c31-40ac-8fdf-0c1c89e2585f",
+			"url": "http://localhost:3000/api/users/register",
+			"time": "2019-10-16T12:06:16.852Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Create a new Admin",
+			"id": "0a5a212c-bbe5-442e-9dff-f7b32c6da7b1",
+			"url": "http://localhost:3000/api/admins/register",
+			"time": "2019-10-16T12:06:16.852Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Make a review - User",
+			"id": "036d8abe-dd3f-4cc3-90d5-6349e6e67205",
+			"url": "http://localhost:3000/api/users/5da707b88492ee23e0090dd9/reviews",
+			"time": "2019-10-16T12:06:16.852Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Get a user with the given id",
+			"id": "e429e4f0-b6e9-4314-94d7-64d90df94ac2",
+			"url": "http://localhost:3000/api/users/5da707b88492ee23e0090dd9",
+			"time": "2019-10-16T12:06:16.852Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Create a new product",
+			"id": "d6d856c1-9f0a-43d3-b221-8194a1e9ccb5",
+			"url": "http://localhost:3000/api/admins/5da707b98492ee23e0090dda/products",
+			"time": "2019-10-16T12:06:16.852Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Get all users - Admin",
+			"id": "e03e7f14-9bfc-4839-8617-0550c814ce30",
+			"url": "http://localhost:3000/api/admins/users/",
+			"time": "2019-10-16T12:06:16.852Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Make an order -User",
+			"id": "62e134ba-bda7-4e71-8651-1023b6291019",
+			"url": "http://localhost:3000/api/users/5da707b88492ee23e0090dd9/products/orders",
+			"time": "2019-10-16T12:06:16.852Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Update user info with given id",
+			"id": "8b39fa93-0572-4dc2-bbd4-5cb178c6fc69",
+			"url": "http://localhost:3000/api/users/5da707b88492ee23e0090dd9",
+			"time": "2019-10-16T12:06:16.852Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Update user password with given id",
+			"id": "54035157-4399-445b-bf39-e20851f3eb08",
+			"url": "http://localhost:3000/api/users/5da707b88492ee23e0090dd9/password",
+			"time": "2019-10-16T12:06:16.852Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "login an existing admin",
+			"id": "d59e21e4-4571-450c-bb24-8be2ac6e3c03",
+			"url": "http://localhost:3000/api/admins/login",
+			"time": "2019-10-16T12:06:16.852Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Admin has correct data": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Update admin info with given id",
+			"id": "0e4fcce7-63c1-4ffc-99e7-b86435c466fb",
+			"url": "http://localhost:3000/api/admins/5da707b98492ee23e0090dda",
+			"time": "2019-10-16T12:06:16.852Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "login an existing user",
+			"id": "9154f835-fdcb-46e7-9f40-2ad74c16d9fd",
+			"url": "http://localhost:3000/api/users/login",
+			"time": "2019-10-16T12:06:16.852Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"User has correct data": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Get all products - User",
+			"id": "f04ded9d-bd1b-4f23-89fe-c3f66cde2fa0",
+			"url": "http://localhost:3000/api/users/5da707b88492ee23e0090dd9/products",
+			"time": "2019-10-16T12:06:16.852Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Get all products- Admin",
+			"id": "fcd79276-7505-4ef1-b75f-0b97f1bfb449",
+			"url": "http://localhost:3000/api/admins/5da707b98492ee23e0090dda/products/",
+			"time": "2019-10-16T12:06:16.852Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Get a list of all products",
+			"id": "d110703f-d8cf-4947-9f8a-d14e377e52cf",
+			"url": "http://localhost:3000/api/products",
+			"time": "2019-10-16T12:06:16.852Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Get all reviews",
+			"id": "3425ee09-35b9-4fa0-b1ef-c76fab980954",
+			"url": "http://localhost:3000/api/reviews",
+			"time": "2019-10-16T12:06:16.852Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Get all orders - Admin",
+			"id": "8a73c4dd-8fb1-4dea-899a-67a40dc17300",
+			"url": "http://localhost:3000/api/admins/5da707b98492ee23e0090dda/orders/",
+			"time": "2019-10-16T12:06:16.852Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Update or edit a review",
+			"id": "c5a9e21a-b56a-4486-9e83-40e6de966769",
+			"url": "http://localhost:3000/api/users/5da707b88492ee23e0090dd9/reviews/5da707b98492ee23e0090ddb",
+			"time": "2019-10-16T12:06:16.852Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "//Get a specific order- Admin",
+			"id": "323efb80-b0f2-4d4e-8d2e-26a0f297c7a5",
+			"url": "http://localhost:3000/api/admins/5da707b98492ee23e0090dda/orders/5da707b98492ee23e0090ddd",
+			"time": "2019-10-16T12:06:16.852Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Update a specific order - User",
+			"id": "b23c4918-1890-439c-8b0a-a9ad8a39f0fd",
+			"url": "http://localhost:3000/api/users/5da707b88492ee23e0090dd9/products/orders/5da707b98492ee23e0090ddd",
+			"time": "2019-10-16T12:06:16.852Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Update product info with the given id",
+			"id": "9a7659fb-3add-4614-9512-71886e264b50",
+			"url": "http://localhost:3000/api/admins/5da707b98492ee23e0090dda/products/5da707b98492ee23e0090ddc",
+			"time": "2019-10-16T12:06:16.852Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Delete an order- Admin",
+			"id": "839c32d3-7311-4e57-a5e6-8cda73a2a9c6",
+			"url": "http://localhost:3000/api/admins/5da707b98492ee23e0090dda/orders/5da707b98492ee23e0090ddd",
+			"time": "2019-10-16T12:06:16.852Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Delete a review - User",
+			"id": "d51c36dd-60b6-4a8b-bc37-15ccf6bd2375",
+			"url": "http://localhost:3000/api/users/5da707b88492ee23e0090dd9/reviews/5da707b98492ee23e0090ddb",
+			"time": "2019-10-16T12:06:16.852Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Delete a product with the given ID - Admin",
+			"id": "3021c9ba-f81c-4ce7-8500-0910e1c4727b",
+			"url": "http://localhost:3000/api/admins/5da707b98492ee23e0090dda/products/5da707b98492ee23e0090ddc",
+			"time": "2019-10-16T12:06:16.852Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Delete a user with the given ID - Admin",
+			"id": "3961cb5d-1899-42a1-ae48-24071c1603e6",
+			"url": "http://localhost:3000/api/users/5da707b88492ee23e0090dd9",
+			"time": "2019-10-16T12:06:16.852Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Delete an admin with the given id",
+			"id": "bbcbbdd8-c397-4c69-acc0-e54b0e15d9a5",
+			"url": "http://localhost:3000/api/admins/5da707b98492ee23e0090dda",
+			"time": "2019-10-16T12:06:16.852Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		}
+	],
+	"synced": false
+}
